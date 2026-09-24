@@ -5,6 +5,7 @@
     "dev": "npm --prefix Explomar-main/Explomar-main/Explomar-main run dev",
     "build": "npm --prefix Explomar-main/Explomar-main/Explomar-main run build",
     "install-site": "npm --prefix Explomar-main/Explomar-main/Explomar-main install",
-    "backend": "cd explomar_backend/explomar_backend && python -m uvicorn app.main:app --reload"
+    "backend": "cd explomar_backend/explomar_backend && python -m uvicorn app.main:app --reload",
+    "seed": "cd explomar_backend/explomar_backend && python seed.py"
   }
 }

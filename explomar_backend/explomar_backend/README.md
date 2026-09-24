@@ -11,6 +11,14 @@ pip install -r requirements.txt
 python -m uvicorn app.main:app --reload
 ```
 
+Para preencher o banco com dados fictícios de exemplo (opcional):
+
+```
+python seed.py
+```
+
+Login de exemplo: `demo@conectour.com`, senha `demo123`.
+
 Swagger (documentação e testes da API):
 http://localhost:8000/docs
 

@@ -16,14 +16,19 @@ Na pasta raiz do projeto:
 pip install -r requirements.txt
 npm run install-site
 
-# 2. Iniciar a API (deixe este terminal aberto)
+# 2. (Opcional) Preencher o banco com dados fictícios de exemplo
+npm run seed
+
+# 3. Iniciar a API (deixe este terminal aberto)
 npm run backend
 
-# 3. Em outro terminal, iniciar o site
+# 4. Em outro terminal, iniciar o site
 npm run dev
 ```
 
 Depois abra http://localhost:5173 no navegador. A documentação da API fica em http://localhost:8000/docs.
+
+O banco de dados (`explomar.db`) não fica no repositório, porque guarda dados pessoais. A API cria um banco vazio automaticamente na primeira vez que roda. O passo 2 adiciona usuários e avaliações fictícios para demonstração. Login de exemplo: `demo@conectour.com`, senha `demo123`.
 
 ## Funcionalidades
 

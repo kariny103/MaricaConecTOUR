@@ -1,0 +1,27 @@
+# Dependências (reinstale com npm install / pip install -r requirements.txt)
+node_modules/
+.venv/
+venv/
+
+# Build do site
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Dados dos usuários: NÃO enviar para o GitHub
+# (contas, CPF de candidatos, fotos e certificados enviados)
+*.db
+explomar_backend/explomar_backend/uploads/
+
+# Configurações locais e logs
+.env
+*.log
+npm-debug.log*
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

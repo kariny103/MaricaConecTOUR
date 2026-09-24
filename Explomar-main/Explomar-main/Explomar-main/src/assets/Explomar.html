@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://localhost:5173/home -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script type="module">import { injectIntoGlobalHook } from "/@react-refresh"
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+  <script type="module" src="./Explomar_files/client"></script>
+
+  
+  <title>Explomar</title>
+<style type="text/css"></style><style type="text/css" id="operaUserStyle"></style><style type="text/css" data-vite-dev-id="D:/projeto facudade/explomar/Explomar/src/styles/home.module.css">* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  body {
+    background: #fff;
+    color: #333;
+  }
+  
+  ._container_ht05c_39 {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+  }
+  
+  ._hero_ht05c_53 {
+    background: #FF6607;
+    color: white;
+    padding-bottom: 2rem;
+  }
+  
+  ._top-bar_ht05c_65 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  ._flags_ht05c_79{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  ._logo_ht05c_91 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  /*  */
+  ._search-wrapper_ht05c_101 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+._top-bar-search_ht05c_115 {
+  width: 100%;
+  padding: 10px 30px 10px 15px; /* padding maior à direita p/ a lupa */
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: white !important;
+  color: black !important;
+  outline: none;
+  transition: all 0.2s ease;
+  
+}
+
+._search-icon_ht05c_141 {
+  position: absolute;
+  color: black;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-40%);
+  pointer-events: none;
+}
+
+._search-icon_ht05c_141 img {
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
+}
+
+
+/*      */
+  
+  ._btn-outline_ht05c_177 {
+    
+    color: #ff5b00;
+    padding: 0.7rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  ._btn-outline_ht05c_177 a {
+    color: black;
+
+  }
+
+  ._btn-outline_ht05c_177 a:hover{
+
+    font-size: 14px;
+    color: white;
+    
+  }
+
+  ._btn-outline_ht05c_177:hover{ 
+    border: none;
+  }
+
+
+
+  ._btn-login_ht05c_229{
+    color: white; 
+    font-size: 16px;
+    font-weight: 700;
+
+    background-color: rgba(0, 0, 255, 0);
+    border: none;
+    padding: 0.5rem 1rem;
+  }
+
+  ._btn-login_ht05c_229 a {
+    color: white;
+
+  }
+
+  ._btn-login_ht05c_229 a:hover {
+    font-size: 17px;
+    color: white;
+    
+  }
+  
+  ._hero-content_ht05c_271 h2 {
+    font-size: 2rem;
+    font-size: 45px;
+    margin: 2rem 0;
+  }
+  
+  ._menu_ht05c_283 {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  ._menu-item_ht05c_293 {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+  }
+  
+  ._menu-item_ht05c_293._active_ht05c_313 {
+    background-color: #f53155;
+  }
+
+._menu-suspenso_ht05c_321 {
+  position: relative;
+  display: inline-block;
+}
+
+._botao-menu-suspenso_ht05c_331 {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+._botao-menu-suspenso_ht05c_331:hover {
+  background-color: #f53155;
+  border-radius: 8px;
+}
+
+._conteudo-menu-suspenso_ht05c_359 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 180px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  z-index: 1;
+  border-radius: 8px;
+  padding: 8px 0;
+}
+
+._conteudo-menu-suspenso_ht05c_359 a {
+  color: #3b82f6;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+  border-bottom: 1px solid #eee;
+}
+
+._conteudo-menu-suspenso_ht05c_359 a:hover{
+  background-color: lightgrey;
+}
+
+._conteudo-menu-suspenso_ht05c_359 a:last-child {
+  border-bottom: none;
+
+}
+
+._menu-suspenso_ht05c_321:hover ._conteudo-menu-suspenso_ht05c_359 {
+  display: block;
+
+}
+
+  
+  ._search-box_ht05c_429 {
+    display: flex;  
+    gap: 0.5rem;
+    margin-top: 1rem;
+    background-color: #ff59009a;
+    padding: 1rem;
+    justify-content: center;
+  }
+  
+  ._search-box_ht05c_429 input,
+  ._search-box_ht05c_429 button {
+    padding: 1rem;
+    width: 300px;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  ._btn-search_ht05c_463 {
+    background: #333;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+ ._btn-search_ht05c_463:hover{
+  background-color: #ff5b00;
+  font-size: 15px;
+  
+ }
+
+  ._section_ht05c_489 {
+    margin: 2rem 0;
+  }
+  
+  ._section_ht05c_489 h3 {
+    font-size: 1.5rem;
+  }
+  
+  ._section_ht05c_489 p {
+    color: #777;
+    margin-bottom: 1rem;
+  }
+  
+  ._grid_ht05c_515 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  ._grid-2-3_ht05c_527 ._placeholder_ht05c_527._large_ht05c_527 {
+    flex: 1 1 calc(50% - 0.5rem);
+    height: 250px;
+    background: #ddd;
+    border-radius: 8px;
+  }
+  
+  ._grid-2-3_ht05c_527 ._placeholder_ht05c_527 {
+    flex: 1 1 calc(33% - 0.5rem);
+    height: 200px;
+    background: #ddd;
+    border-radius: 8px;
+  }
+  
+  ._grid-5_ht05c_555 ._placeholder_ht05c_527 {
+    flex: 1 1 calc(20% - 0.5rem);
+    height: 200px;
+    background: #ddd;
+    border-radius: 8px;
+  }
+  
+  ._labels_ht05c_569 {
+    display: flex;
+    text-align: start;  
+    color: #555;
+    gap: 250px;
+  }
+  
+  ._tags_ht05c_583 {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  ._tag_ht05c_583 {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  ._tag_ht05c_583._active_ht05c_313 {
+    background: #ff5b00;
+    color: white;
+    border: none;
+  }
+  
+  ._promo-box_ht05c_623 {
+    display: flex;
+    justify-content: space-between;
+    background: #fff5e6;
+    padding: 1rem;
+    border: 1px solid #ff5b00;
+    border-radius: 10px;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  
+  ._promo-text_ht05c_645 {
+    max-width: 70%;
+  }
+  
+  ._btn-black_ht05c_653 {
+    background: #000;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  ._promo-img_ht05c_673 {
+    font-size: 3rem;
+  }
+  
+  footer {
+    background: #f8f8f8;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  ._footer-content_ht05c_695 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  ._footer-links_ht05c_707{
+    display: flex;
+    gap: 40px;
+  }
+
+  ._links_ht05c_717 p{
+    padding: 5px 0px;
+  }
+
+  ._links_ht05c_717 a{
+    color: black;
+    text-decoration: none;
+  }
+
+  ._links_ht05c_717 a:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  ._footer-links_ht05c_707 > div {
+    margin: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /*FAVORTIRAR*/
+  ._placeholder_ht05c_527 {
+    position: relative; /* necessário para o botão ficar "preso" dentro */
+  }
+
+  ._favorite-button_ht05c_765 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  ._favorite-button_ht05c_765:hover {
+    transform: scale(1.1);
+  }
+
+  /*favoritados*/
+  #_favorites-modal_ht05c_1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    z-index: 10;
+  }
+  
+  #_saved-favorites-list_ht05c_1 {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #_modal-favoritos_ht05c_1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    z-index: 10;
+  }
+  
+
+
+
+
+  #_lista-favoritos-salvos_ht05c_1 {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  button {
+    padding: 2px;
+    background-color: #ff4d6d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #ff2a4d;
+  }</style><style type="text/css" data-vite-dev-id="D:/projeto facudade/explomar/Explomar/src/styles/inicio.module.css">/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styles */
+._header_pey83_15 {
+    background-color: #FF6607;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+._nav-container_pey83_24 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+._logo_pey83_33 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+._nav-links_pey83_39 {
+    display: flex;
+    gap: 2rem;
+}
+
+._nav-links_pey83_39 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+._nav-links_pey83_39 a:hover {
+    color: #e55c06;
+}
+
+._contact-info_pey83_55 {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Hero Section */
+._hero_pey83_63 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+._hero-image_pey83_76 {
+    position: absolute; /* Alterado de fixed para absolute para limitar à .hero */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Para cobrir toda a altura da .hero */
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(0.5);
+}
+
+._hero-content_pey83_87 {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 2rem 0; /* Mantém o padding superior */
+    position: relative;
+    z-index: 1;
+}
+
+
+._hero_pey83_63 h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+._hero_pey83_63 p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+._hero-buttons_pey83_110 {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+._scroll-indicator_pey83_116 {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: _bounce_pey83_1 2s infinite;
+}
+
+._scroll-indicator_pey83_116 i {
+    font-size: 2rem;
+    color: white;
+}
+
+@keyframes _bounce_pey83_1 {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Button Styles */
+._cta-button_pey83_142,
+._secondary-button_pey83_143,
+._offer-button_pey83_144 {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+._cta-button_pey83_142 {
+    background-color: #FF6607;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+._cta-button_pey83_142:hover {
+    background-color: #e55c06;
+    transform: translateY(-2px);
+}
+
+._secondary-button_pey83_143 {
+    background-color: transparent;
+    color: white;
+    padding: 1rem 2rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+._secondary-button_pey83_143:hover {
+    background-color: white;
+    color: #FF6607;
+}
+
+._offer-button_pey83_144 {
+    background-color: #FF6607;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+._offer-button_pey83_144:hover {
+    background-color: #e55c06;
+}
+
+/* Offers Section */
+._offers_pey83_194 {
+    padding: 5rem 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+._offers_pey83_194 h2 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+._offers-container_pey83_205 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+._offer-card_pey83_213 {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+._offer-card_pey83_213:hover {
+    transform: translateY(-10px);
+}
+
+._offer-image_pey83_225 {
+    position: relative;
+}
+
+._offer-image_pey83_225 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+._offer-price_pey83_235 {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #FF6607;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+._offer-content_pey83_246 {
+    padding: 1.5rem;
+}
+
+._offer-details_pey83_250 {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    color: #666;
+}
+
+/* Features Section */
+._features_pey83_258 {
+    background-color: white;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+._features_pey83_258 h2 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+._features-container_pey83_269 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+._feature-card_pey83_277 {
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+._feature-card_pey83_277:hover {
+    transform: translateY(-5px);
+}
+
+._feature-card_pey83_277 i {
+    font-size: 3rem;
+    color: #FF6607;
+    margin-bottom: 1rem;
+}
+
+._feature-card_pey83_277 h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Testimonials Section */
+._testimonials_pey83_301 {
+    padding: 5rem 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+._testimonials_pey83_301 h2 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+._testimonial-container_pey83_312 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+._testimonial_pey83_301 {
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+._testimonial-image_pey83_324 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+}
+
+._testimonial-image_pey83_324 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+._testimonial_pey83_301 i {
+    font-size: 2rem;
+    color: #FF6607;
+    margin-bottom: 1rem;
+}
+
+._testimonial_pey83_301 p {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+._testimonial_pey83_301 h4 {
+    color: #FF6607;
+    margin-bottom: 0.5rem;
+}
+
+._testimonial-rating_pey83_354 {
+    color: #FF6607;
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+._contact_pey83_55 {
+    padding: 5rem 2rem;
+    text-align: center;
+    background-color: white;
+}
+
+._contact_pey83_55 h2 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+._contact-container_pey83_371 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+._contact-info_pey83_55 {
+    text-align: left;
+}
+
+._contact-item_pey83_383 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+._contact-item_pey83_383 i {
+    font-size: 1.5rem;
+    color: #FF6607;
+}
+
+._contact-form_pey83_395 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+._contact-form_pey83_395 input,
+._contact-form_pey83_395 textarea {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+._contact-form_pey83_395 textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 3rem 2rem 1rem;
+}
+
+._footer-content_pey83_421 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+._footer-section_pey83_430 h3 {
+    margin-bottom: 1rem;
+    color: #FF6607;
+}
+
+._footer-section_pey83_430 a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s;
+}
+
+._footer-section_pey83_430 a:hover {
+    color: #FF6607;
+}
+
+._social-icons_pey83_447 {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+._social-icons_pey83_447 a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+._social-icons_pey83_447 a:hover {
+    color: #FF6607;
+}
+
+._footer-bottom_pey83_463 {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Header */
+    ._header_pey83_15 {
+        padding: 0.5rem 0;
+    }
+
+    ._nav-container_pey83_24 {
+        padding: 0 1rem;
+    }
+
+    ._nav-links_pey83_39,
+    ._contact-info_pey83_55 {
+        display: none;
+    }
+
+    ._logo_pey83_33 {
+        font-size: 1.2rem;
+        margin: 0 auto;
+    }
+
+    /* Hero Section */
+    ._hero-content_pey83_87 {
+        padding-top: 60px;
+    }
+
+    ._hero_pey83_63 h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    ._hero_pey83_63 p {
+        font-size: 1rem;
+    }
+
+    ._hero-buttons_pey83_110 {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    ._hero-buttons_pey83_110 a {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Offers Section */
+    ._offers_pey83_194 {
+        padding: 3rem 1rem;
+    }
+
+    ._offers_pey83_194 h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    ._offers-container_pey83_205 {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    ._offer-card_pey83_213 {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    /* Features Section */
+    ._features_pey83_258 {
+        padding: 3rem 1rem;
+    }
+
+    ._features_pey83_258 h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    ._features-container_pey83_269 {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    ._feature-card_pey83_277 {
+        padding: 1.5rem;
+    }
+
+    ._feature-card_pey83_277 i {
+        font-size: 2.5rem;
+    }
+
+    /* Testimonials Section */
+    ._testimonials_pey83_301 {
+        padding: 3rem 1rem;
+    }
+
+    ._testimonials_pey83_301 h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    ._testimonial_pey83_301 {
+        padding: 1.5rem;
+    }
+
+    ._testimonial-image_pey83_324 {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 2rem 1rem 1rem;
+    }
+
+    ._footer-content_pey83_421 {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    ._social-icons_pey83_447 {
+        justify-content: center;
+    }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+    ._hero_pey83_63 h1 {
+        font-size: 1.8rem;
+    }
+
+    ._hero_pey83_63 p {
+        font-size: 0.9rem;
+    }
+
+    ._offer-price_pey83_235 {
+        font-size: 0.9rem;
+        padding: 0.3rem 0.8rem;
+    }
+
+    ._offer-content_pey83_246 h3 {
+        font-size: 1.2rem;
+    }
+
+    ._offer-details_pey83_250 {
+        font-size: 0.9rem;
+    }
+
+    ._feature-card_pey83_277 h3 {
+        font-size: 1.1rem;
+    }
+
+    ._testimonial_pey83_301 p {
+        font-size: 0.9rem;
+    }
+} 
+
+</style><style type="text/css" data-vite-dev-id="D:/projeto facudade/explomar/Explomar/src/index.css"></style></head>
+<body>
+  <div id="root"><div class="[object Object]"><div><header class="_hero_ht05c_53"><div class="_container_ht05c_39"><div class="_top-bar_ht05c_65"><h1 class="_logo_ht05c_91">ExploMar</h1><div class="_flags_ht05c_79"><img alt="BR" width="30" src="./Explomar_files/brasil.png"><div class="_search-wrapper_ht05c_101"><input class="_top-bar-search_ht05c_115" placeholder="Pesquise" type="text" style=""><span class="_search-icon_ht05c_141"><img alt="Lupa" src="./Explomar_files/Search.png"></span></div><button class="_btn-login_ht05c_229"><a href="http://localhost:5173/home#index%20-HOME">LOGIN</a></button><button class="_btn-outline_ht05c_177"><a href="http://localhost:5173/home#">Cadastre-se</a></button></div></div><div class="_hero-content_ht05c_271"><h2>Sua próxima viagem começa em Maricá</h2><nav class="_menu_ht05c_283"><button class="_menu-item_ht05c_293 _active_ht05c_313">Início</button><div class="_menu-suspenso_ht05c_321"><button class="_botao-menu-suspenso_ht05c_331">Destinos ▾</button><div class="_conteudo-menu-suspenso_ht05c_359"><a href="http://localhost:5173/home#">Centro</a><a href="http://localhost:5173/home#">Inoã</a><a href="http://localhost:5173/home#">Ponta negra</a><a href="http://localhost:5173/Itaipua%C3%A7u.html" target="_self">Itaipuaçu</a></div></div><button class="_menu-item_ht05c_293"><a href="http://localhost:5173/Guias-turisticos.html" target="_self">Guia Turísticos</a></button><button class="_menu-item_ht05c_293"><a href="http://localhost:5173/TrabalheConosco.html" target="_self">Trabalhe conosco</a></button><button class="_menu-item_ht05c_293"><a href="http://localhost:5173/PageFeedback.html" target="_self">Avaliação</a></button></nav></div></div></header></div><div><main class="_container_ht05c_39"><div class="_search-box_ht05c_429"><input id="cidade" placeholder="Nome da cidade" type="text"><input type="date"><input placeholder="Quantidade de pessoas" type="number"><button class="_btn-search_ht05c_463">Pesquisar</button></div><div id="resposta"> </div><section class="_section_ht05c_489"><h3>Destinos mais procurados</h3><p>Lugares mais desejados por quem viaja por Maricá</p><div class="_grid_ht05c_515 _grid-2-3_ht05c_527"><div class="_placeholder_ht05c_527 _large_ht05c_527"></div><div class="_placeholder_ht05c_527 _large_ht05c_527"></div><div class="_placeholder_ht05c_527"></div><div class="_placeholder_ht05c_527"></div><div class="_placeholder_ht05c_527"></div></div></section><section class="_section_ht05c_489"><h3>Favorite um lugar</h3><p>Favorite uma viagem para não se esquecer</p><div class="_grid_ht05c_515 _grid-2-3_ht05c_527"><div class="_placeholder_ht05c_527"><button class="_favorite-button_ht05c_765"><i class="fa-regular fa-heart"></i></button></div><div class="_placeholder_ht05c_527"><button class="_favorite-button_ht05c_765"><i class="fa-regular fa-heart"></i></button></div><div class="_placeholder_ht05c_527"><button class="_favorite-button_ht05c_765"><i class="fa-regular fa-heart"></i></button></div></div><h4>Itens Favoritos:</h4><ul id="lista-favoritos"></ul></section><div id="modal-favoritos" style="display: none;"><h3>Favoritos Salvos</h3><ul id="lista-favoritos-salvos"></ul><button id="fechar-modal">Fechar</button></div><section class="_section_ht05c_489"><h3>Organize sua viagem com praticidade e agilidade</h3><p>Escolha seu destino e explore o melhor de Maricá</p><div class="_tags_ht05c_583"><button class="_tag_ht05c_583 _active_ht05c_313">Praia</button><button class="_tag_ht05c_583">Cidade</button><button class="_tag_ht05c_583">Natureza</button><button class="_tag_ht05c_583">Descanso</button></div><div class="_grid_ht05c_515 _grid-5_ht05c_555"><div class="_placeholder_ht05c_527"></div><div class="_placeholder_ht05c_527"></div><div class="_placeholder_ht05c_527"></div><div class="_placeholder_ht05c_527"></div></div></section><section class="_promo-box_ht05c_623"><div class="_promo-text_ht05c_645"><h4>Faça login e economize</h4><p>Cadastre-se e ganhe 5% de desconto em determinados lugares</p><button class="_btn-black_ht05c_653">Login</button><button class="_btn-outline_ht05c_177">Cadastre-se</button></div><div class="_promo-img_ht05c_673">🎁</div></section></main></div><div><footer><div class="undefined container"><div><p>© 2025 ExploMar - Todos os direitos reservados.</p></div><div><div class="_links_ht05c_717"><p><strong>Termos</strong></p><p><a href="http://localhost:5173/home#">Privacidade e Cookies</a></p><p><a href="http://localhost:5173/home#">Termos</a></p><p><a href="http://localhost:5173/home#">Trabalhe conosco</a></p></div><div class="_links_ht05c_717"><p><strong>Parceiros</strong></p><p>Prefeitura</p><p>Codemar</p></div><div class="_links_ht05c_717"><p><strong>Redes Sociais</strong></p><p><a href="http://localhost:5173/home#">Facebook</a></p><p><a href="http://localhost:5173/home#">Instagram</a></p></div></div></div></footer></div></div></div>
+  <script type="module" src="./Explomar_files/main.jsx"></script>
+
+
+</body></html>

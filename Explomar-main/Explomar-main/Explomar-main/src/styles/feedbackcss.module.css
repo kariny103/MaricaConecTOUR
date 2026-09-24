@@ -1,0 +1,242 @@
+/* Todas as regras ficam dentro de .pagina para não afetar o resto do site */
+
+.pagina {
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+  color: #333;
+}
+
+.breadcrumb {
+  padding: 50px 50px 0px 50px;
+  margin: 20px 20px 0px 20px;
+  color: #999;
+  font-size: 14px;
+}
+
+.breadcrumb a {
+  color: var(--mc-laranja);
+}
+
+.h1feed {
+  padding: 10px 50px;
+  margin: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.form2 {
+  margin: 20px;
+  padding: 10px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.pagina fieldset {
+  border: none;
+  padding: 0;
+}
+
+.legend {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.pagina label,
+.rotulo {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.pagina input[type="text"],
+.pagina input[type="email"],
+.pagina select {
+  padding: 10px;
+  border: 1px solid var(--mc-borda);
+  border-radius: var(--mc-raio-sm);
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.pagina textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  background-color: var(--mc-areia-clara);
+  color: var(--mc-texto);
+  border: 1px solid var(--mc-borda);
+  border-radius: var(--mc-raio);
+  padding: 20px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.pagina input.error,
+.pagina textarea.error {
+  border-color: #e74c3c;
+  background-color: #fdecea;
+}
+
+.error-text {
+  color: #e74c3c;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.file-upload {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagina input[type="file"] {
+  font-size: 14px;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+}
+
+.estrela,
+.estrelaAtiva {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 34px;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.estrela {
+  color: #ddd;
+}
+
+.estrelaAtiva {
+  color: var(--mc-laranja);
+}
+
+.estrela:hover,
+.estrelaAtiva:hover {
+  transform: scale(1.15);
+}
+
+.submit-button {
+  grid-column: span 2;
+  text-align: right;
+}
+
+.botao {
+  display: inline-block;
+  background-color: var(--mc-laranja);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 999px;
+  font-size: 16px;
+  transition: background-color var(--mc-transicao), transform var(--mc-transicao);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: var(--mc-laranja-escuro);
+}
+
+.botao:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.sucesso {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.sucesso p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.sucessoIcone {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: var(--mc-turquesa);
+  color: white;
+  font-size: 40px;
+  line-height: 72px;
+}
+
+@media (max-width: 768px) {
+  .breadcrumb {
+    padding: 20px 16px 0;
+    margin: 0;
+  }
+
+  .h1feed {
+    padding: 10px 16px;
+    margin: 0;
+  }
+
+  .form2 {
+    grid-template-columns: 1fr;
+    padding: 10px 16px;
+    margin: 0;
+  }
+
+  .submit-button {
+    grid-column: auto;
+    text-align: center;
+  }
+}
+
+/* ---------- Visual Maricá ConecTOUR ---------- */
+.pagina {
+  padding-bottom: 32px;
+}
+
+.breadcrumb a {
+  color: var(--mc-turquesa);
+  font-weight: 600;
+}
+
+.form2 {
+  background: var(--mc-branco);
+  border: 1px solid var(--mc-borda);
+  border-radius: 20px;
+  box-shadow: var(--mc-sombra);
+  padding: 36px 40px;
+}
+
+.legend {
+  color: var(--mc-marinho);
+}
+
+.pagina input[type="text"]:focus,
+.pagina input[type="email"]:focus,
+.pagina select:focus,
+.pagina textarea:focus {
+  outline: none;
+  border-color: var(--mc-turquesa);
+  background-color: var(--mc-branco);
+}
+
+.botao:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .form2 {
+    margin: 0 16px;
+    padding: 24px 18px;
+  }
+}

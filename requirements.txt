@@ -1,1 +1,1 @@
--r explomar_backend/explomar_backend/requirements.txt
+-r marica-conectour-backend/requirements.txt

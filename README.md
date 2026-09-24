@@ -2,8 +2,8 @@
 
 Portal de turismo da cidade de Maricá (RJ): praias, trilhas, lagoas, cultura e guias turísticos locais.
 
-- **Site:** React + Vite (`Explomar-main/Explomar-main/Explomar-main`)
-- **API:** FastAPI + SQLite (`explomar_backend/explomar_backend`)
+- **Site:** React + Vite (`marica-conectour-site`)
+- **API:** FastAPI + SQLite (`marica-conectour-backend`)
 
 ## Como rodar
 
@@ -28,7 +28,7 @@ npm run dev
 
 Depois abra http://localhost:5173 no navegador. A documentação da API fica em http://localhost:8000/docs.
 
-O banco de dados (`explomar.db`) não fica no repositório, porque guarda dados pessoais. A API cria um banco vazio automaticamente na primeira vez que roda. O passo 2 adiciona usuários e avaliações fictícios para demonstração. Login de exemplo: `demo@conectour.com`, senha `demo123`.
+O banco de dados (`marica_conectour.db`) não fica no repositório, porque guarda dados pessoais. A API cria um banco vazio automaticamente na primeira vez que roda. O passo 2 adiciona usuários e avaliações fictícios para demonstração. Login de exemplo: `demo@conectour.com`, senha `demo123`.
 
 ## Funcionalidades
 
@@ -41,7 +41,7 @@ O banco de dados (`explomar.db`) não fica no repositório, porque guarda dados 
 
 ## Onde editar o conteúdo
 
-- Destinos: `Explomar-main/Explomar-main/Explomar-main/src/data/destinos.js`
-- Guias e WhatsApp: `Explomar-main/Explomar-main/Explomar-main/src/data/guias.js`
-- Pontos do mapa: `Explomar-main/Explomar-main/Explomar-main/src/data/mapa.js`
-- Cores do site: `Explomar-main/Explomar-main/Explomar-main/src/index.css`
+- Destinos: `marica-conectour-site/src/data/destinos.js`
+- Guias e WhatsApp: `marica-conectour-site/src/data/guias.js`
+- Pontos do mapa: `marica-conectour-site/src/data/mapa.js`
+- Cores do site: `marica-conectour-site/src/index.css`

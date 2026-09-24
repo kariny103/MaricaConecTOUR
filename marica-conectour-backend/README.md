@@ -4,7 +4,7 @@ API do site de turismo Maricá ConecTOUR (FastAPI + SQLite).
 
 ## Executar
 
-Rode os comandos dentro desta pasta (`explomar_backend\explomar_backend`):
+Rode os comandos dentro desta pasta (`marica-conectour-backend`):
 
 ```
 pip install -r requirements.txt
@@ -32,4 +32,4 @@ http://localhost:8000/docs
 | POST   | /avaliacoes     | Enviar avaliação (formulário, foto opcional)     |
 | POST   | /candidaturas   | Cadastro de guia no "Trabalhe conosco"           |
 
-Os dados ficam em `explomar.db` e as fotos e certificados enviados na pasta `uploads/`.
+Os dados ficam em `marica_conectour.db` e as fotos e certificados enviados na pasta `uploads/`.

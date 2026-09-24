@@ -13,7 +13,7 @@ __pycache__/
 # Dados dos usuários: NÃO enviar para o GitHub
 # (contas, CPF de candidatos, fotos e certificados enviados)
 *.db
-explomar_backend/explomar_backend/uploads/
+marica-conectour-backend/uploads/
 
 # Configurações locais e logs
 .env

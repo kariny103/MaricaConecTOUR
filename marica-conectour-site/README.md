@@ -4,7 +4,7 @@ Site de turismo da cidade de Maricá (RJ), feito em React + Vite.
 
 ## Executar
 
-1. Inicie o backend (veja `explomar_backend\explomar_backend\README.md`).
+1. Inicie o backend (veja `marica-conectour-backend/README.md`).
 2. Nesta pasta, rode:
 
 ```

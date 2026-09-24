@@ -21,8 +21,10 @@ const Main = () => {
     navigate(`/destinos${params.toString() ? `?${params}` : ''}`)
   }
 
-  const destaques = destinos.filter((d) => d.destaque).slice(0, 5)
-  const paraFavoritar = destinos.filter((d) => !d.destaque).slice(0, 3)
+  // A grade tem 5 espaços: primeiro os destaques, depois completa com os demais
+  const outros = destinos.filter((d) => !d.destaque)
+  const destaques = [...destinos.filter((d) => d.destaque), ...outros].slice(0, 5)
+  const paraFavoritar = outros.filter((d) => !destaques.includes(d)).slice(0, 3)
   const porCategoria = destinos.filter((d) => d.categorias.includes(categoria)).slice(0, 4)
   const listaFavoritos = favoritos.map(getDestino).filter(Boolean)
 

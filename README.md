@@ -5,6 +5,8 @@ Portal de turismo da cidade de Maricá (RJ): praias, trilhas, lagoas, cultura e 
 - **Site:** React + Vite (`marica-conectour-site`)
 - **API:** FastAPI + SQLite (`marica-conectour-backend`)
 
+Documentação completa: [PDF](documentacao/Documentacao-Marica-ConecTOUR.pdf) · [Word](documentacao/Documentacao-Marica-ConecTOUR.docx)
+
 ## Como rodar
 
 Pré-requisitos: [Node.js](https://nodejs.org) e [Python](https://www.python.org) instalados.
